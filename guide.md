@@ -1,13 +1,11 @@
-**Installation de CLAUDE CODE**
+# 🧌 Installation de Claude Code #
 
 **1\. Installer Ollama**
 
 **Sur Mac :** Ouvre ton terminal et tape ça :
-
 ```
-brew install ollama
-
-brew services start ollama
+ brew install ollama
+ brew services start ollama
 ```
 
 puis ça :
@@ -55,10 +53,8 @@ echo 'export ANTHROPIC\_AUTH\_TOKEN=ollama' >> ~/.zshrc && echo 'export ANTHROPI
 
 ```
 \[System.Environment\]::SetEnvironmentVariable('ANTHROPIC\_AUTH\_TOKEN', 'ollama', 'User')
-
 \[System.Environment\]::SetEnvironmentVariable('ANTHROPIC\_BASE\_U
-
-RL', 'http://localhost:11434', 'User')
+RL', 'http://localhost:11434', 'User') 
 ```
 
 **5\. Utilisation dans VS Code**
@@ -66,15 +62,12 @@ RL', 'http://localhost:11434', 'User')
 Maintenant, ouvre ton projet dans **VS Code**.
 
 1.  Ouvre le terminal en bas (Ctrl + ù ou via le menu **Terminal**).
-    
 2.  Lance la machine :
-    
+``` 
+claude --model qwen2.5-coder:7b 
+``` 
 
-```
-claude --model qwen2.5-coder:7b
-```
-
-**AVERTISSEMENT : INSTALLATION CLAUDE CODE + OLLAMA**
+### 🦧 AVERTISSEMENT : INSTALLATION CLAUDE CODE + OLLAMA ###
 
 **1\. RESPONSABILITÉ DE L'UTILISATEUR** En installant ces outils, vous devenez seul responsable des modifications effectuées sur votre ordinateur. L'IA (Claude Code) est un automate capable de lire, créer, modifier ou supprimer des fichiers. **Ne lancez jamais une commande suggérée par l'IA sans la comprendre.**
 
@@ -94,4 +87,4 @@ claude --model qwen2.5-coder:7b
 *   **Sauvegardes :** Il est **impératif** d'utiliser un système de versioning (comme Git) ou de faire des copies de sauvegarde avant de laisser l'IA modifier vos dossiers.
     
 
-**4\. SÉCURITÉ RÉSEAU** L'installation via npm, brew ou winget télécharge des paquets depuis internet. Utilisez uniquement les sources officielles citées dans ce guide pour éviter tout logiciel malveillant.
+**4\. SÉCURITÉ RÉSEAU** L'installation via ```npm```, ```brew``` ou ```winget``` télécharge des paquets depuis internet. Utilisez uniquement les sources officielles citées dans ce guide pour éviter tout logiciel malveillant.
