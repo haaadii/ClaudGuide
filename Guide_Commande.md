@@ -2,7 +2,7 @@
 
 Ce document recense les commandes et paramètres essentiels pour l'utilisation de Claude en environnement de développement.
 
-** Commandes de Contrôle (Terminal) **
+**Commandes de Contrôle (Terminal)**
 
 Ces commandes s'exécutent directement dans l'interface de discussion de Claude Code.
 
@@ -20,7 +20,7 @@ Ces commandes s'exécutent directement dans l'interface de discussion de Claude 
 
 ``` /exit ``` : Met fin à la session et ferme l'application proprement.
 
-** Sécurité et Confidentialité **
+**Sécurité et Confidentialité**
 
 Méthodes de restriction d'accès et de contrôle des modifications.
 
@@ -30,7 +30,7 @@ Mode Lecture Seule (--read-only) : Paramètre de lancement empêchant toute modi
 
 Mode Automatique (--dangerously-skip-permissions) : Désactive les demandes de confirmation avant modification. À utiliser avec une extrême vigilance.
 
-** Structuration des Requêtes (Prompts) **
+**Structuration des Requêtes (Prompts)**
 
 Pour obtenir des résultats précis, privilégiez les structures explicites.
 
@@ -40,7 +40,7 @@ Contraintes de format : Précisez explicitement le format de sortie souhaité (J
 
 Définition de rôle : Assignez une expertise spécifique à l'IA (ex: "Agis en tant qu'expert en sécurité informatique").
 
- **Raccourcis Système **
+ **Raccourcis Système**
 
 ``` Ctrl + C ``` : Interrompt immédiatement la génération de texte ou l'exécution d'une tâche.
 
