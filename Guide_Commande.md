@@ -24,11 +24,11 @@ Ces commandes s'exécutent directement dans l'interface de discussion de Claude 
 
 Méthodes de restriction d'accès et de contrôle des modifications.
 
-Fichier .claudeignore : À placer à la racine. Permet d'exclure des fichiers ou répertoires spécifiques de l'analyse de l'IA (données sensibles, dépendances lourdes).
+Fichier ```.claudeignore``` : À placer à la racine. Permet d'exclure des fichiers ou répertoires spécifiques de l'analyse de l'IA (données sensibles, dépendances lourdes).
 
-Mode Lecture Seule (--read-only) : Paramètre de lancement empêchant toute modification directe du système de fichiers par l'IA.
+Mode Lecture Seule ```(--read-only)``` : Paramètre de lancement empêchant toute modification directe du système de fichiers par l'IA.
 
-Mode Automatique (--dangerously-skip-permissions) : Désactive les demandes de confirmation avant modification. À utiliser avec une extrême vigilance.
+Mode Automatique ```(--dangerously-skip-permissions)``` : Désactive les demandes de confirmation avant modification. À utiliser avec une extrême vigilance.
 
 **Structuration des Requêtes (Prompts)**
 
