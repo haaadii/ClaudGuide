@@ -21,11 +21,21 @@ puis ça :
 > ollama pull qwen2.5-coder:7b
 > ```
 
+**Sur Linux :** 
+
+> ```
+> curl -fsSL [https://ollama.com/install.sh](https://ollama.com/install.sh) | sh
+> ollama pull qwen2.5-coder:7b
+> ```
+
 **2\. Installer Node.js ( si tu ne la pas )**
 
 **Sur Mac :** ``` brew install node ```
 
 **Sur Windows :** ``` winget install OpenJS.NodeJS.LTS ```
+
+**Sur Linux :** ``` #Pour Ubuntu/Debian
+sudo apt update && sudo apt install nodejs npm ```
 
 **3\. Installer Claude Code**
 
@@ -40,6 +50,13 @@ puis ça :
 > ```
 > npm install -g @anthropic-ai/claude-code
 > ```
+
+**Sur Linux :**
+
+> ```
+> sudo npm install -g @anthropic-ai/claude-code
+> ```
+
 
 **4\. Lié Claude à Ollama** 
 
@@ -56,6 +73,17 @@ puis ça :
 > \[System.Environment\]::SetEnvironmentVariable('ANTHROPIC\_BASE\_U
 > RL', 'http://localhost:11434', 'User') 
 > ```
+
+**Sur Linux :**
+
+> ```
+> # Ajoute la config à ton profil (bash ou zsh)
+> echo 'export ANTHROPIC_AUTH_TOKEN=ollama' >> ~/.bashrc
+> echo 'export ANTHROPIC_BASE_URL="http://localhost:11434"' >> ~/.bashrc
+> source ~/.bashrc
+> ```
+
+
 
 **5\. Utilisation dans VS Code**
 
