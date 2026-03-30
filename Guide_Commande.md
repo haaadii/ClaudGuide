@@ -6,19 +6,19 @@ Ce document recense les commandes et paramètres essentiels pour l'utilisation d
 
 Ces commandes s'exécutent directement dans l'interface de discussion de Claude Code.
 
-``` /init ``` : Analyse l'arborescence du projet pour indexer les fichiers et établir le contexte.
+> ``` /init ``` : Analyse l'arborescence du projet pour indexer les fichiers et établir le contexte.
 
-``` /bug ``` : Initie une recherche automatisée d'anomalies dans la base de code actuelle.
+> ``` /bug ``` : Initie une recherche automatisée d'anomalies dans la base de code actuelle.
 
-``` /review ``` : Génère une analyse critique du code pour identifier des optimisations potentielles.
+> ``` /review ``` : Génère une analyse critique du code pour identifier des optimisations potentielles.
 
-``` /test ``` : Produit et exécute des scripts de tests unitaires adaptés au projet.
+> ``` /test ``` : Produit et exécute des scripts de tests unitaires adaptés au projet.
 
-``` /terminal ``` : Autorise l'IA à exécuter des commandes système (ex: gestionnaire de paquets).
+> ``` /terminal ``` : Autorise l'IA à exécuter des commandes système (ex: gestionnaire de paquets).
 
-``` /clear ``` : Réinitialise l'historique de la session pour libérer de la mémoire contextuelle.
+> ``` /clear ``` : Réinitialise l'historique de la session pour libérer de la mémoire contextuelle.
 
-``` /exit ``` : Met fin à la session et ferme l'application proprement.
+> ``` /exit ``` : Met fin à la session et ferme l'application proprement.
 
 **Sécurité et Confidentialité**
 
